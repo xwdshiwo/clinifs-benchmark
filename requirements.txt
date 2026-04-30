@@ -1,0 +1,45 @@
+# ============================================================
+# V2 Feature-Selection Benchmark — Python dependencies
+# Generated: 2026-04-19  Source host: Windows 10, Anaconda3 Python 3.12.11
+# Install on Mac / Linux:
+#   conda create -n fs_bench python=3.12 -y
+#   conda activate fs_bench
+#   pip install -r requirements.txt
+# ------------------------------------------------------------
+# NOTE: Versions here match the Windows host that produced
+# ~1360 summary.json checkpoints. Use identical minor versions
+# to avoid accidentally re-running tasks due to algorithm drift
+# in GA/BPSO random streams (Filter methods are reproducible
+# across versions).
+# ============================================================
+
+# --- numerical core ---
+numpy==2.2.6
+scipy==1.16.0
+pandas==2.3.2
+pyarrow==22.0.0
+
+# --- ML / stats ---
+scikit-learn==1.7.2
+statsmodels==0.14.5
+joblib==1.5.2
+
+# --- feature-selection / wrappers ---
+Boruta==0.4.3
+skrebate==0.62
+mrmr-selection==0.2.8
+
+# --- evolutionary algorithms ---
+deap==1.4.3
+pymoo==0.6.1.5
+
+# --- enrichment / external APIs ---
+gprofiler-official==1.0.0
+requests==2.32.5
+
+# --- plotting ---
+matplotlib==3.10.6
+seaborn==0.13.2
+
+# --- utilities ---
+tqdm==4.67.1

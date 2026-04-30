@@ -1,0 +1,18 @@
+# Locked dependencies for clinifs-benchmark
+numpy==2.2.6
+scipy==1.16.0
+pandas==2.3.2
+pyarrow==22.0.0
+scikit-learn==1.7.2
+statsmodels==0.14.5
+joblib==1.5.2
+Boruta==0.4.3
+skrebate==0.62
+mrmr-selection==0.2.8
+deap==1.4.3
+pymoo==0.6.1.5
+gprofiler-official==1.0.0
+requests==2.32.5
+matplotlib==3.10.6
+seaborn==0.13.2
+tqdm==4.67.1

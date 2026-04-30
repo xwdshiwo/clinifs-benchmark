@@ -1,0 +1,890 @@
+% bibliography.bib
+% Cancer Microarray Feature Selection Benchmark Paper
+% Generated: 2026-04-17 | Session B - DOI Verification Complete
+% All DOIs verified via CrossRef API unless noted
+%
+% Tiers:
+%   Tier 1 (R1-R8):  BIB benchmark precedents + methodological guidelines
+%   Tier 2 (R9-R10): Microarray FS reviews + dataset bias
+%   Tier 3 (R11-R14): EA methods
+%   Tier 4 (R15-R20): Core method papers
+%   Tier 5 (R21-R22): Engineering/stability references
+%   Extension (E1-E12): Supporting references
+
+
+% ===========================================================================
+% TIER 1: BIB Benchmark Precedents + Methodological Guidelines (R1-R8)
+% ===========================================================================
+
+@article{bommert2022benchmark,
+  author   = {Bommert, Andrea and Welchowski, Thomas and Schmid, Matthias and Rahnenf{\"u}hrer, J{\"o}rg},
+  title    = {Benchmark of filter methods for feature selection in high-dimensional gene expression survival data},
+  journal  = {Briefings in Bioinformatics},
+  year     = {2022},
+  volume   = {23},
+  number   = {1},
+  pages    = {bbab354},
+  doi      = {10.1093/bib/bbab354},
+}
+
+@article{wissel2025survboard,
+  author   = {Wissel, David and Janakarajan, Nikita and Grover, Aayush and Toniato, Enrico and Rodr{\'i}guez Mart{\'i}nez, Maria and Boeva, Valentina},
+  title    = {{SurvBoard}: standardized benchmarking for multi-omics cancer survival models},
+  journal  = {Briefings in Bioinformatics},
+  year     = {2025},
+  volume   = {26},
+  number   = {5},
+  pages    = {bbaf521},
+  doi      = {10.1093/bib/bbaf521},
+}
+
+@article{novoloaca2024comparative,
+  author   = {Novoloaca, Alexei and Broc, Camilo and Beloeil, Laurent and Yu, Wen-Han and Becker, J{\'e}r{\'e}mie},
+  title    = {Comparative analysis of integrative classification methods for multi-omics data},
+  journal  = {Briefings in Bioinformatics},
+  year     = {2024},
+  volume   = {25},
+  number   = {4},
+  pages    = {bbae331},
+  doi      = {10.1093/bib/bbae331},
+}
+
+@article{cao2025landscape,
+  author   = {Cao, Yue and Yu, Lijia and Torkel, Marni and Kim, Sanghyun and Lin, Yingxin and Yang, Pengyi and Speed, Terence P. and Ghazanfar, Shila and Yang, Jean Yee Hwa},
+  title    = {The current landscape and emerging challenges of benchmarking single-cell methods},
+  journal  = {Briefings in Bioinformatics},
+  year     = {2025},
+  volume   = {26},
+  number   = {5},
+  pages    = {bbaf380},
+  doi      = {10.1093/bib/bbaf380},
+}
+
+@article{piccolo2022classify,
+  author   = {Piccolo, Stephen R. and Mecham, Avery and Golightly, Nathan P. and Johnson, J{\'e}r{\'e}mie L. and Miller, Dustin B.},
+  title    = {The ability to classify patients based on gene-expression data varies by algorithm and performance metric},
+  journal  = {PLOS Computational Biology},
+  year     = {2022},
+  volume   = {18},
+  number   = {3},
+  pages    = {e1009926},
+  doi      = {10.1371/journal.pcbi.1009926},
+}
+
+@article{weber2019guidelines,
+  author   = {Weber, Lukas M. and Saelens, Wouter and Cannoodt, Robrecht and Soneson, Charlotte and Hapfelmeier, Alexander and Gardner, Paul P. and Gruning, Bjorn and Kupkova, Kristyna and others},
+  title    = {Essential guidelines for computational method benchmarking in genomics},
+  journal  = {Genome Biology},
+  year     = {2019},
+  volume   = {20},
+  pages    = {125},
+  doi      = {10.1186/s13059-019-1738-8},
+}
+
+@article{mangul2019benchmarking,
+  author   = {Mangul, Serghei and Martin, Lana S. and Hill, Brian L. and Lam, Adam K.-M. and Distler, Margaret G. and Zelikovsky, Alexander and Eskin, Eleazar and Flint, Jonathan},
+  title    = {Systematic benchmarking of omics computational tools},
+  journal  = {Nature Communications},
+  year     = {2019},
+  volume   = {10},
+  pages    = {1393},
+  doi      = {10.1038/s41467-019-09406-4},
+}
+
+@article{piccolo2020shinylearner,
+  author   = {Piccolo, Stephen R. and Collingridge, Andrew C. and Mecham, Avery and Wilkey, Devon W. and Christoph, Matthew J.},
+  title    = {{ShinyLearner}: {A} containerized benchmarking tool for machine-learning classification of tabular data},
+  journal  = {GigaScience},
+  year     = {2020},
+  volume   = {9},
+  number   = {4},
+  pages    = {giaa026},
+  doi      = {10.1093/gigascience/giaa026},
+}
+
+
+% ===========================================================================
+% TIER 2: Microarray FS Reviews + Dataset Bias (R9-R10)
+% ===========================================================================
+
+@article{alhenawi2022feature,
+  author   = {Alhenawi, Esra'a and Al-Sayyed, Rizik and Hudaib, Amjad and Mirjalili, Seyedali},
+  title    = {Feature selection methods on gene expression microarray data for cancer classification: {A} systematic review},
+  journal  = {Computers in Biology and Medicine},
+  year     = {2022},
+  volume   = {140},
+  pages    = {105051},
+  doi      = {10.1016/j.compbiomed.2021.105051},
+}
+
+@article{grisci2024bias,
+  author   = {Grisci, Bruno I. and Feltes, Bruno C{\'e}sar and {de Faria Poloni}, Joice and Narloch, Pedro H. and Dorn, M{\'a}rcio},
+  title    = {The use of gene expression datasets in feature selection research: 20 years of inherent bias?},
+  journal  = {WIREs Data Mining and Knowledge Discovery},
+  year     = {2024},
+  volume   = {14},
+  number   = {2},
+  pages    = {e1523},
+  doi      = {10.1002/widm.1523},
+}
+
+
+% ===========================================================================
+% TIER 3: Evolutionary Algorithm Methods (R11-R14)
+% ===========================================================================
+
+@article{peng2021mgrfe,
+  author   = {Peng, Cheng and Zou, Ling and Wu, Xinyu and Wang, Jiao and Huang, Rui},
+  title    = {{MGRFE}: Multilayer Recursive Feature Elimination Based on an Embedded Genetic Algorithm for Cancer Classification},
+  journal  = {{IEEE/ACM} Transactions on Computational Biology and Bioinformatics},
+  year     = {2021},
+  volume   = {18},
+  number   = {2},
+  pages    = {621--632},
+  doi      = {10.1109/TCBB.2019.2921961},
+}
+
+@article{ahadzadeh2023sfe,
+  author   = {Ahadzadeh, Behrouz and Abdar, Moloud and Safara, Fatemeh and Khosravi, Abbas and Menhaj, Mohammad Bagher and Suganthan, Ponnuthurai Nagaratnam},
+  title    = {{SFE}: {A} Simple, Fast, and Efficient Feature Selection Algorithm for High-Dimensional Data},
+  journal  = {{IEEE} Transactions on Evolutionary Computation},
+  year     = {2023},
+  volume   = {27},
+  number   = {6},
+  pages    = {1896--1911},
+  doi      = {10.1109/TEVC.2023.3238420},
+}
+
+@article{wang2024mel,
+  author   = {Wang, Xubin and Shi, Yanling and Li, Bin and Zhu, Zexuan},
+  title    = {{MEL}: Efficient Multi-Task Evolutionary Learning for High-Dimensional Feature Selection},
+  journal  = {{IEEE} Transactions on Knowledge and Data Engineering},
+  year     = {2024},
+  volume   = {36},
+  number   = {8},
+  pages    = {4020--4033},
+  doi      = {10.1109/TKDE.2024.3366333},
+}
+
+@misc{sklearngenetic,
+  author   = {Arenas, Rodrigo},
+  title    = {{Sklearn-Genetic-Opt}: Scikit-Learn models hyperparameter tuning and feature selection using evolutionary algorithms},
+  year     = {2021},
+  url      = {https://github.com/rodrigo-arenas/Sklearn-genetic-opt},
+  note     = {Version 0.9.0. Accessed: 2026-04-17},
+}
+
+
+% ===========================================================================
+% TIER 4: Core Method Papers (R15-R20)
+% ===========================================================================
+
+@article{peng2005mrmr,
+  author   = {Peng, Hanchuan and Long, Fuhui and Ding, Chris},
+  title    = {Feature selection based on mutual information criteria of max-dependency, max-relevance, and min-redundancy},
+  journal  = {{IEEE} Transactions on Pattern Analysis and Machine Intelligence},
+  year     = {2005},
+  volume   = {27},
+  number   = {8},
+  pages    = {1226--1238},
+  doi      = {10.1109/TPAMI.2005.159},
+}
+
+@article{urbanowicz2018relief,
+  author   = {Urbanowicz, Ryan J. and Meeker, Melissa and {La Cava}, William and Olson, Randal S. and Moore, Jason H.},
+  title    = {Relief-based feature selection: Introduction and review},
+  journal  = {Journal of Biomedical Informatics},
+  year     = {2018},
+  volume   = {85},
+  pages    = {189--203},
+  doi      = {10.1016/j.jbi.2018.07.014},
+}
+
+@article{kursa2010boruta,
+  author   = {Kursa, Miron B. and Rudnicki, Witold R.},
+  title    = {Feature Selection with the {Boruta} Package},
+  journal  = {Journal of Statistical Software},
+  year     = {2010},
+  volume   = {36},
+  number   = {11},
+  pages    = {1--13},
+  doi      = {10.18637/jss.v036.i11},
+}
+
+@misc{eboruta,
+  author   = {Reveguk, Ivan},
+  title    = {{eBoruta}: Extended {Boruta} --- a flexible transparent sklearn-compatible {Python} {Boruta} implementation},
+  year     = {2022},
+  url      = {https://github.com/edikedik/eBoruta},
+  note     = {MIT License. Accessed: 2026-04-17},
+}
+
+@article{nogueira2018stability,
+  author   = {Nogueira, Sarah and Sechidis, Konstantinos and Brown, Gavin},
+  title    = {On the Stability of Feature Selection Algorithms},
+  journal  = {Journal of Machine Learning Research},
+  year     = {2018},
+  volume   = {18},
+  number   = {174},
+  pages    = {1--54},
+  url      = {http://jmlr.org/papers/v18/17-514.html},
+}
+
+@article{feltes2019cumida,
+  author   = {Feltes, Bruno C{\'e}sar and Chandelier, Eduardo Bassani and Grisci, Bruno Iochins and Dorn, M{\'a}rcio},
+  title    = {{CuMiDa}: {An} Extensively Curated Microarray Database for Benchmarking and Testing of Machine Learning Approaches in Cancer Research},
+  journal  = {Journal of Computational Biology},
+  year     = {2019},
+  volume   = {26},
+  number   = {4},
+  pages    = {376--386},
+  doi      = {10.1089/cmb.2018.0238},
+}
+
+
+% ===========================================================================
+% TIER 5: Engineering / Stability References (R21-R22)
+% ===========================================================================
+
+@article{barbieri2024genexpfs,
+  author   = {Barbieri, Matheus Cezimbra and Grisci, Bruno Iochins and Dorn, M{\'a}rcio},
+  title    = {Analysis and comparison of feature selection methods towards performance and stability},
+  journal  = {Expert Systems with Applications},
+  year     = {2024},
+  volume   = {249},
+  pages    = {123667},
+  doi      = {10.1016/j.eswa.2024.123667},
+}
+
+@article{li2022stabmlrfe,
+  author   = {Li, Lingyu and Ching, Wai-Ki and Liu, Zhi-Ping},
+  title    = {Robust biomarker screening from gene expression data by stable machine learning-recursive feature elimination methods},
+  journal  = {Computational Biology and Chemistry},
+  year     = {2022},
+  volume   = {100},
+  pages    = {107747},
+  doi      = {10.1016/j.compbiolchem.2022.107747},
+}
+
+
+% ===========================================================================
+% EXTENSION REFERENCES (E1-E12)
+% ===========================================================================
+
+@article{xue2016survey,
+  author   = {Xue, Bing and Zhang, Mengjie and Browne, Will N. and Yao, Xin},
+  title    = {A Survey on Evolutionary Computation Approaches to Feature Selection},
+  journal  = {{IEEE} Transactions on Evolutionary Computation},
+  year     = {2016},
+  volume   = {20},
+  number   = {4},
+  pages    = {606--626},
+  doi      = {10.1109/TEVC.2015.2504420},
+}
+
+@article{li2018feature,
+  author   = {Li, Jundong and Cheng, Kewei and Wang, Suhang and Morstatter, Fred and Trevino, Robert P. and Tang, Jiliang and Liu, Huan},
+  title    = {Feature Selection: {A} Data Perspective},
+  journal  = {{ACM} Computing Surveys},
+  year     = {2018},
+  volume   = {50},
+  number   = {6},
+  pages    = {94},
+  doi      = {10.1145/3136625},
+}
+
+@article{saeys2007review,
+  author   = {Saeys, Yvan and Inza, I{\~n}aki and Larra{\~n}aga, Pedro},
+  title    = {A review of feature selection techniques in bioinformatics},
+  journal  = {Bioinformatics},
+  year     = {2007},
+  volume   = {23},
+  number   = {19},
+  pages    = {2507--2517},
+  doi      = {10.1093/bioinformatics/btm344},
+}
+
+@article{breiman2001random,
+  author   = {Breiman, Leo},
+  title    = {Random Forests},
+  journal  = {Machine Learning},
+  year     = {2001},
+  volume   = {45},
+  number   = {1},
+  pages    = {5--32},
+  doi      = {10.1023/A:1010933404324},
+}
+
+@article{cortes1995svm,
+  author   = {Cortes, Corinna and Vapnik, Vladimir},
+  title    = {Support-Vector Networks},
+  journal  = {Machine Learning},
+  year     = {1995},
+  volume   = {20},
+  number   = {3},
+  pages    = {273--297},
+  doi      = {10.1007/BF00994018},
+}
+
+@article{pedregosa2011scikit,
+  author   = {Pedregosa, Fabian and Varoquaux, Ga{\"e}l and Gramfort, Alexandre and Michel, Vincent and Thirion, Bertrand and Grisel, Olivier and Blondel, Mathieu and Prettenhofer, Peter and Weiss, Ron and Dubourg, Vincent and Vanderplas, Jake and Passos, Alexandre and Cournapeau, David and Brucher, Matthieu and Perrot, Matthieu and Duchesnay, {\'E}douard},
+  title    = {Scikit-learn: Machine Learning in {Python}},
+  journal  = {Journal of Machine Learning Research},
+  year     = {2011},
+  volume   = {12},
+  pages    = {2825--2830},
+  url      = {https://jmlr.csail.mit.edu/papers/v12/pedregosa11a.html},
+}
+
+@article{weinstein2013tcga,
+  author   = {Weinstein, John N. and Collisson, Eric A. and Mills, Gordon B. and Shaw, Kenna R. Mills and Ozenberger, Brad A. and Ellrott, Kyle and Shmulevich, Ilya and Sander, Chris and Stuart, Joshua M. and {The Cancer Genome Atlas Research Network}},
+  title    = {The {Cancer Genome Atlas} {Pan-Cancer} analysis project},
+  journal  = {Nature Genetics},
+  year     = {2013},
+  volume   = {45},
+  number   = {10},
+  pages    = {1113--1120},
+  doi      = {10.1038/ng.2764},
+}
+
+@article{barrett2013geo,
+  author   = {Barrett, Tanya and Wilhite, Stephen E. and Ledoux, Pierre and Evangelista, Carlos and Kim, Irene F. and Tomashevsky, Maxim and Marshall, Kimberly A. and Phillippy, Katherine H. and Sherman, Patti M. and Holko, Michelle and Yefanov, Andrey and Lee, Hyeseung and Zhang, Naigong and Robertson, Cynthia L. and Serova, Nadezhda and Davis, Sean and Soboleva, Alexandra},
+  title    = {{NCBI} {GEO}: archive for functional genomics data sets --- update},
+  journal  = {Nucleic Acids Research},
+  year     = {2013},
+  volume   = {41},
+  number   = {D1},
+  pages    = {D991--D995},
+  doi      = {10.1093/nar/gks1193},
+}
+
+@book{holland1992adaptation,
+  author    = {Holland, John H.},
+  title     = {Adaptation in Natural and Artificial Systems: {An} Introductory Analysis with Applications to Biology, Control, and Artificial Intelligence},
+  publisher = {MIT Press},
+  year      = {1992},
+  address   = {Cambridge, MA},
+  edition   = {2nd},
+}
+
+@article{deb2002nsga,
+  author   = {Deb, Kalyanmoy and Pratap, Amrit and Agarwal, Sameer and Meyarivan, T.},
+  title    = {A fast and elitist multiobjective genetic algorithm: {NSGA-II}},
+  journal  = {{IEEE} Transactions on Evolutionary Computation},
+  year     = {2002},
+  volume   = {6},
+  number   = {2},
+  pages    = {182--197},
+  doi      = {10.1109/4235.996017},
+}
+
+@article{perscheid2021comprior,
+  author   = {Perscheid, Cindy},
+  title    = {Comprior: facilitating the implementation and automated benchmarking of prior knowledge-based feature selection approaches on gene expression data sets},
+  journal  = {{BMC} Bioinformatics},
+  year     = {2021},
+  volume   = {22},
+  pages    = {401},
+  doi      = {10.1186/s12859-021-04308-z},
+}
+
+@article{tibshirani1996lasso,
+  author   = {Tibshirani, Robert},
+  title    = {Regression Shrinkage and Selection via the {Lasso}},
+  journal  = {Journal of the Royal Statistical Society: Series B (Methodological)},
+  year     = {1996},
+  volume   = {58},
+  number   = {1},
+  pages    = {267--288},
+  doi      = {10.1111/j.2517-6161.1996.tb02080.x},
+}
+
+% ---------------------------------------------------------------------------
+% EXTENSION REFERENCES (E13-E27) — Added 2026-04-17
+% ---------------------------------------------------------------------------
+
+@article{varma2006bias,
+  author   = {Varma, Sudhir and Simon, Richard},
+  title    = {Bias in error estimation when using cross-validation for model selection},
+  journal  = {{BMC} Bioinformatics},
+  year     = {2006},
+  volume   = {7},
+  pages    = {91},
+  doi      = {10.1186/1471-2105-7-91},
+}
+
+@article{subramanian2005gsea,
+  author   = {Subramanian, Aravind and Tamayo, Pablo and Mootha, Vamsi K. and Mukherjee, Sayan and Ebert, Benjamin L. and Gillette, Michael A. and Paulovich, Amanda and Pomeroy, Scott L. and Golub, Todd R. and Lander, Eric S. and Mesirov, Jill P.},
+  title    = {Gene set enrichment analysis: {A} knowledge-based approach for interpreting genome-wide expression profiles},
+  journal  = {Proceedings of the National Academy of Sciences},
+  year     = {2005},
+  volume   = {102},
+  number   = {43},
+  pages    = {15545--15550},
+  doi      = {10.1073/pnas.0506580102},
+}
+
+@article{irizarry2003rma,
+  author   = {Irizarry, Rafael A. and Hobbs, Bridget and Collin, Fran{\c{c}}ois and Beazer-Barclay, Yasmin D. and Antonellis, Klaus J. and Scherf, Uwe and Speed, Terence P.},
+  title    = {Exploration, normalization, and summaries of high density oligonucleotide array probe level data},
+  journal  = {Biostatistics},
+  year     = {2003},
+  volume   = {4},
+  number   = {2},
+  pages    = {249--264},
+  doi      = {10.1093/biostatistics/4.2.249},
+}
+
+@article{ashburner2000go,
+  author   = {Ashburner, Michael and Ball, Catherine A. and Blake, Judith A. and Botstein, David and Butler, Heather and Cherry, J. Michael and Davis, Allan P. and Dolinski, Kara and Dwight, Selina S. and Eppig, Janan T. and others},
+  title    = {{Gene Ontology}: tool for the unification of biology},
+  journal  = {Nature Genetics},
+  year     = {2000},
+  volume   = {25},
+  number   = {1},
+  pages    = {25--29},
+  doi      = {10.1038/75556},
+}
+
+@article{kanehisa2000kegg,
+  author   = {Kanehisa, Minoru and Goto, Susumu},
+  title    = {{KEGG}: Kyoto Encyclopedia of Genes and Genomes},
+  journal  = {Nucleic Acids Research},
+  year     = {2000},
+  volume   = {28},
+  number   = {1},
+  pages    = {27--30},
+  doi      = {10.1093/nar/28.1.27},
+}
+
+@inproceedings{chen2016xgboost,
+  author    = {Chen, Tianqi and Guestrin, Carlos},
+  title     = {{XGBoost}: {A} Scalable Tree Boosting System},
+  booktitle = {Proceedings of the 22nd {ACM} {SIGKDD} International Conference on Knowledge Discovery and Data Mining},
+  year      = {2016},
+  pages     = {785--794},
+  doi       = {10.1145/2939672.2939785},
+}
+
+@article{benjamini1995fdr,
+  author   = {Benjamini, Yoav and Hochberg, Yosef},
+  title    = {Controlling the False Discovery Rate: {A} Practical and Powerful Approach to Multiple Testing},
+  journal  = {Journal of the Royal Statistical Society: Series B (Methodological)},
+  year     = {1995},
+  volume   = {57},
+  number   = {1},
+  pages    = {289--300},
+  doi      = {10.1111/j.2517-6161.1995.tb02031.x},
+}
+
+@article{haury2011influence,
+  author   = {Haury, Anne-Claire and Gestraud, Pierre and Vert, Jean-Philippe},
+  title    = {The influence of feature selection methods on accuracy, stability and interpretability of molecular signatures},
+  journal  = {{PLoS ONE}},
+  year     = {2011},
+  volume   = {6},
+  number   = {12},
+  pages    = {e28210},
+  doi      = {10.1371/journal.pone.0028210},
+}
+
+@article{guyon2003intro,
+  author   = {Guyon, Isabelle and Elisseeff, Andr{\'e}},
+  title    = {An introduction to variable and feature selection},
+  journal  = {Journal of Machine Learning Research},
+  year     = {2003},
+  volume   = {3},
+  pages    = {1157--1182},
+  url      = {http://jmlr.org/papers/v3/guyon03a.html},
+}
+
+@inproceedings{kennedy1995pso,
+  author    = {Kennedy, James and Eberhart, Russell},
+  title     = {Particle swarm optimization},
+  booktitle = {Proceedings of {ICNN}'95 --- International Conference on Neural Networks},
+  year      = {1995},
+  volume    = {4},
+  pages     = {1942--1948},
+  doi       = {10.1109/ICNN.1995.488968},
+}
+
+@article{collins2015tripod,
+  author   = {Collins, Gary S. and Reitsma, Johannes B. and Altman, Douglas G. and Moons, Karel G. M.},
+  title    = {Transparent Reporting of a Multivariable Prediction Model for Individual Prognosis or Diagnosis ({TRIPOD}): The {TRIPOD} Statement},
+  journal  = {Annals of Internal Medicine},
+  year     = {2015},
+  volume   = {162},
+  number   = {1},
+  pages    = {55--63},
+  doi      = {10.7326/M14-0697},
+}
+
+@article{tibshirani2002diagnosis,
+  author   = {Tibshirani, Robert and Hastie, Trevor and Narasimhan, Balasubramanian and Chu, Gilbert},
+  title    = {Diagnosis of multiple cancer types by shrunken centroids of gene expression},
+  journal  = {Proceedings of the National Academy of Sciences},
+  year     = {2002},
+  volume   = {99},
+  number   = {10},
+  pages    = {6567--6572},
+  doi      = {10.1073/pnas.082099299},
+}
+
+@article{pinero2017disgenet,
+  author   = {Pi{\~n}ero, Janet and Bravo, {\`A}lex and Queralt-Rosinach, N{\'u}ria and Guti{\'e}rrez-Sacrist{\'a}n, Alba and Deu-Pons, Jordi and Centeno, Emilio and Garc{\'i}a-Garc{\'i}a, Javier and Sanz, Ferran and Furlong, Laura I.},
+  title    = {{DisGeNET}: a comprehensive platform integrating information on human disease-associated genes and variants},
+  journal  = {Nucleic Acids Research},
+  year     = {2017},
+  volume   = {45},
+  number   = {D1},
+  pages    = {D833--D839},
+  doi      = {10.1093/nar/gkw943},
+}
+
+@article{guyon2002gene,
+  author   = {Guyon, Isabelle and Weston, Jason and Barnhill, Stephen and Vapnik, Vladimir},
+  title    = {Gene selection for cancer classification using support vector machines},
+  journal  = {Machine Learning},
+  year     = {2002},
+  volume   = {46},
+  number   = {1--3},
+  pages    = {389--422},
+  doi      = {10.1023/A:1012487302797},
+}
+
+@article{meinshausen2010stability,
+  author   = {Meinshausen, Nicolai and B{\"u}hlmann, Peter},
+  title    = {Stability selection},
+  journal  = {Journal of the Royal Statistical Society: Series B (Statistical Methodology)},
+  year     = {2010},
+  volume   = {72},
+  number   = {4},
+  pages    = {417--473},
+  doi      = {10.1111/j.1467-9868.2010.00740.x},
+}
+
+% ---------------------------------------------------------------------------
+% EXTENSION REFERENCES (E28-E38) — Completing 60-paper target, 2026-04-18
+% ---------------------------------------------------------------------------
+
+@article{golub1999molecular,
+  author   = {Golub, Todd R. and Slonim, Donna K. and Tamayo, Pablo and Huard, Christine and Gaasenbeek, Michelle and Mesirov, Jill P. and Coller, Hilary and Loh, Mignon L. and Downing, James R. and Caligiuri, Michael A. and Bloomfield, Clara D. and Lander, Eric S.},
+  title    = {Molecular Classification of Cancer: {Class} Discovery and Class Prediction by Gene Expression Monitoring},
+  journal  = {Science},
+  year     = {1999},
+  volume   = {286},
+  number   = {5439},
+  pages    = {531--537},
+  doi      = {10.1126/science.286.5439.531},
+}
+
+@article{alon1999broad,
+  author   = {Alon, Uri and Barkai, Naama and Notterman, Daniel A. and Gish, Kurt and Ybarra, Suzanne and Mack, Daniel and Levine, Arnold J.},
+  title    = {Broad patterns of gene expression revealed by clustering analysis of tumor and normal colon tissues probed by oligonucleotide arrays},
+  journal  = {Proceedings of the National Academy of Sciences},
+  year     = {1999},
+  volume   = {96},
+  number   = {12},
+  pages    = {6745--6750},
+  doi      = {10.1073/pnas.96.12.6745},
+}
+
+@article{ambroise2002selection,
+  author   = {Ambroise, Christophe and McLachlan, Geoffrey J.},
+  title    = {Selection bias in gene extraction on the basis of microarray gene-expression data},
+  journal  = {Proceedings of the National Academy of Sciences},
+  year     = {2002},
+  volume   = {99},
+  number   = {10},
+  pages    = {6562--6566},
+  doi      = {10.1073/pnas.102102699},
+}
+
+@article{venet2011random,
+  author   = {Venet, David and Dumont, Jacques E. and Detours, Vincent},
+  title    = {Most Random Gene Expression Signatures Are Significantly Associated with Breast Cancer Outcome},
+  journal  = {{PLoS} Computational Biology},
+  year     = {2011},
+  volume   = {7},
+  number   = {10},
+  pages    = {e1002240},
+  doi      = {10.1371/journal.pcbi.1002240},
+}
+
+@article{kohavi1997wrappers,
+  author   = {Kohavi, Ron and John, George H.},
+  title    = {Wrappers for feature subset selection},
+  journal  = {Artificial Intelligence},
+  year     = {1997},
+  volume   = {97},
+  number   = {1--2},
+  pages    = {273--324},
+  doi      = {10.1016/S0004-3702(97)00043-X},
+}
+
+@article{zou2005elasticnet,
+  author   = {Zou, Hui and Hastie, Trevor},
+  title    = {Regularization and variable selection via the elastic net},
+  journal  = {Journal of the Royal Statistical Society: Series B (Statistical Methodology)},
+  year     = {2005},
+  volume   = {67},
+  number   = {2},
+  pages    = {301--320},
+  doi      = {10.1111/j.1467-9868.2005.00503.x},
+}
+
+@article{cai2018feature,
+  author   = {Cai, Jian and Luo, Jiawei and Wang, Shulin and Yang, Sheng},
+  title    = {Feature selection in machine learning: {A} new perspective},
+  journal  = {Neurocomputing},
+  year     = {2018},
+  volume   = {300},
+  pages    = {70--79},
+  doi      = {10.1016/j.neucom.2017.11.077},
+}
+
+@article{simon2003pitfalls,
+  author   = {Simon, Richard and Radmacher, Michael D. and Dobbin, Kevin and McShane, Lisa M.},
+  title    = {Pitfalls in the Use of {DNA} Microarray Data for Diagnostic and Prognostic Classification},
+  journal  = {{JNCI} Journal of the National Cancer Institute},
+  year     = {2003},
+  volume   = {95},
+  number   = {1},
+  pages    = {14--18},
+  doi      = {10.1093/jnci/95.1.14},
+}
+
+@article{vanderveer2002breast,
+  author   = {{van 't Veer}, Laura J. and Dai, Hongyue and {van de Vijver}, Marc J. and He, Yudong D. and Hart, Augustinus A. M. and Mao, Mao and Peterse, Hans L. and {van der Kooy}, Karin and Marton, Matthew J. and Witteveen, Anke T. and Schreiber, George J. and Kerkhoven, Ron M. and Roberts, Chris and Linsley, Peter S. and Bernards, Ren{\'e} and Friend, Stephen H.},
+  title    = {Gene expression profiling predicts clinical outcome of breast cancer},
+  journal  = {Nature},
+  year     = {2002},
+  volume   = {415},
+  number   = {6871},
+  pages    = {530--536},
+  doi      = {10.1038/415530a},
+}
+
+@article{abeel2010robust,
+  author   = {Abeel, Thomas and Helleputte, Thibault and {Van de Peer}, Yves and Dupont, Pierre and Saeys, Yvan},
+  title    = {Robust biomarker identification for cancer diagnosis with ensemble feature selection methods},
+  journal  = {Bioinformatics},
+  year     = {2010},
+  volume   = {26},
+  number   = {3},
+  pages    = {392--398},
+  doi      = {10.1093/bioinformatics/btp630},
+}
+
+@article{kalousis2007stability,
+  author   = {Kalousis, Alexandros and Prados, Julien and Hilario, Melanie},
+  title    = {Stability of feature selection algorithms: a study on high-dimensional spaces},
+  journal  = {Knowledge and Information Systems},
+  year     = {2007},
+  volume   = {12},
+  number   = {1},
+  pages    = {95--116},
+  doi      = {10.1007/s10115-006-0040-8},
+}
+
+% ---------------------------------------------------------------------------
+% VERIFIED ADDITIONS (V2) — 2026-04-18, all DOIs confirmed via Exa search
+% ---------------------------------------------------------------------------
+
+@article{geiss2008nanostring,
+  author   = {Geiss, Gary K. and Bumgarner, Roger E. and Birditt, Brian and Dahl, Timothy and Dowidar, Naeem and Dunaway, Dwayne L. and Fell, H. Perry and Ferree, Sean and George, Renee D. and Grogan, Tim and James, Jeffrey J. and Maysuria, Malini and Mitton, Jeffrey D. and Oliveri, Paola and Osborn, Jennifer L. and Peng, Tao and Ratcliffe, Amber L. and Webster, Philippa J. and Davidson, Eric H. and Hood, Leroy and Dimitrov, Krassen},
+  title    = {Direct multiplexed measurement of gene expression with color-coded probe pairs},
+  journal  = {Nature Biotechnology},
+  year     = {2008},
+  volume   = {26},
+  number   = {3},
+  pages    = {317--325},
+  doi      = {10.1038/nbt1385},
+}
+
+@article{parker2009pam50,
+  author   = {Parker, Joel S. and Mullins, Michael and Cheang, Maggie C. U. and Leung, Samuel and Voduc, David and Vickery, Tammi and Davies, Sherri and Fauron, Christiane and He, Xiaping and Hu, Zhiyuan and Quackenbush, John F. and Stijleman, Inge J. and Palazzo, Juan and Marron, J. S. and Nobel, Andrew B. and Mardis, Elaine and Nielsen, Torsten O. and Ellis, Matthew J. and Perou, Charles M. and Bernard, Philip S.},
+  title    = {Supervised risk predictor of breast cancer based on intrinsic subtypes},
+  journal  = {Journal of Clinical Oncology},
+  year     = {2009},
+  volume   = {27},
+  number   = {8},
+  pages    = {1160--1167},
+  doi      = {10.1200/JCO.2008.18.1370},
+}
+
+@article{paik2004oncotype,
+  author   = {Paik, Soonmyung and Shak, Steven and Tang, Gong and Kim, Chungyeul and Baker, Joffre and Cronin, Maureen and Baehner, Frederick L. and Walker, Michael G. and Watson, Drew and Park, Taesung and Hiller, William and Fisher, Edwin R. and Wickerham, D. Lawrence and Bryant, John and Wolmark, Norman},
+  title    = {A multigene assay to predict recurrence of tamoxifen-treated, node-negative breast cancer},
+  journal  = {New England Journal of Medicine},
+  year     = {2004},
+  volume   = {351},
+  number   = {27},
+  pages    = {2817--2826},
+  doi      = {10.1056/NEJMoa041588},
+}
+
+@inproceedings{kononenko1994relief,
+  author    = {Kononenko, Igor},
+  title     = {Estimating attributes: {A}nalysis and extensions of {RELIEF}},
+  booktitle = {Proceedings of the European Conference on Machine Learning ({ECML})},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {784},
+  year      = {1994},
+  pages     = {171--182},
+  publisher = {Springer},
+  doi       = {10.1007/3-540-57868-4_57},
+}
+
+@article{geurts2006extratrees,
+  author   = {Geurts, Pierre and Ernst, Damien and Wehenkel, Louis},
+  title    = {Extremely randomized trees},
+  journal  = {Machine Learning},
+  year     = {2006},
+  volume   = {63},
+  number   = {1},
+  pages    = {3--42},
+  doi      = {10.1007/s10994-006-6226-1},
+}
+
+@article{battiti1994using,
+  author   = {Battiti, Roberto},
+  title    = {Using mutual information for selecting features in supervised neural net learning},
+  journal  = {{IEEE} Transactions on Neural Networks},
+  year     = {1994},
+  volume   = {5},
+  number   = {4},
+  pages    = {537--550},
+  doi      = {10.1109/72.298224},
+}
+
+@article{raudvere2019gprofiler,
+  author   = {Raudvere, Uku and Kolberg, Liis and Kuzmin, Ivan and Arak, Tambet and Adler, Priit and Peterson, Hedi and Vilo, Jaak},
+  title    = {{g:Profiler}: a web server for functional enrichment analysis and conversions of gene lists (2019 update)},
+  journal  = {Nucleic Acids Research},
+  year     = {2019},
+  volume   = {47},
+  number   = {W1},
+  pages    = {W191--W198},
+  doi      = {10.1093/nar/gkz369},
+}
+
+@article{kuleshov2016enrichr,
+  author   = {Kuleshov, Maxim V. and Jones, Matthew R. and Rouillard, Andrew D. and Fernandez, Nicolas F. and Duan, Qiaonan and Wang, Zichen and Koplev, Simon and Jenkins, Sherry L. and Jagodnik, Kathleen M. and Lachmann, Alexander and McDermott, Michael G. and Monteiro, Caroline D. and Gundersen, Gregory W. and Ma'ayan, Avi},
+  title    = {{Enrichr}: a comprehensive gene set enrichment analysis web server 2016 update},
+  journal  = {Nucleic Acids Research},
+  year     = {2016},
+  volume   = {44},
+  number   = {W1},
+  pages    = {W90--W97},
+  doi      = {10.1093/nar/gkw377},
+}
+
+@article{liberzon2015msigdb,
+  author   = {Liberzon, Arthur and Birger, Chet and Thorvaldsd{\'o}ttir, Helga and Ghandi, Mahmoud and Mesirov, Jill P. and Tamayo, Pablo},
+  title    = {The {Molecular Signatures Database} hallmark gene set collection},
+  journal  = {Cell Systems},
+  year     = {2015},
+  volume   = {1},
+  number   = {6},
+  pages    = {417--425},
+  doi      = {10.1016/j.cels.2015.12.004},
+}
+
+@article{sondka2018cgc,
+  author   = {Sondka, Zbyslaw and Bamford, Sally and Cole, Charlotte G. and Ward, Sari A. and Dunham, Ian and Forbes, Simon A.},
+  title    = {The {COSMIC} {Cancer} {Gene} {Census}: describing genetic dysfunction across all human cancers},
+  journal  = {Nature Reviews Cancer},
+  year     = {2018},
+  volume   = {18},
+  number   = {11},
+  pages    = {696--705},
+  doi      = {10.1038/s41568-018-0060-1},
+}
+
+@article{ochoa2023opentargets,
+  author   = {Ochoa, David and Hercules, Andrew and Carmona, Miguel and Suveges, Daniel and Baker, Jarrod and Malangone, Cinzia and Lopez, Irene and Miranda, Alfredo and Cruz-Castillo, Carlos and Fumis, Luca and others},
+  title    = {The next-generation {Open Targets Platform}: reimagined, redesigned, rebuilt},
+  journal  = {Nucleic Acids Research},
+  year     = {2023},
+  volume   = {51},
+  number   = {D1},
+  pages    = {D1353--D1359},
+  doi      = {10.1093/nar/gkac1046},
+}
+
+@article{lazar2012survey,
+  author   = {Lazar, Cosmin and Taminau, Jonatan and Meganck, Stijn and Steenhoff, David and Coletta, Alain and Molter, Colin and {de Schaetzen}, Virginie and Duque, Robin and Bersini, Hugues and Now{\'e}, Ann},
+  title    = {A survey on filter techniques for feature selection in gene expression microarray analysis},
+  journal  = {{IEEE/ACM} Transactions on Computational Biology and Bioinformatics},
+  year     = {2012},
+  volume   = {9},
+  number   = {4},
+  pages    = {1106--1119},
+  doi      = {10.1109/TCBB.2012.33},
+}
+
+@article{leardi2001genetic,
+  author   = {Leardi, Riccardo},
+  title    = {Genetic algorithms in chemometrics and chemistry: a review},
+  journal  = {Journal of Chemometrics},
+  year     = {2001},
+  volume   = {15},
+  number   = {7},
+  pages    = {559--569},
+  doi      = {10.1002/cem.651},
+}
+
+@incollection{yang1998feature,
+  author    = {Yang, Jihoon and Honavar, Vasant},
+  title     = {Feature subset selection using a genetic algorithm},
+  booktitle = {Feature Extraction, Construction and Selection: A Data Mining Perspective},
+  editor    = {Liu, Huan and Motoda, Hiroshi},
+  publisher = {Springer},
+  year      = {1998},
+  pages     = {117--136},
+  doi       = {10.1007/978-1-4615-5725-8_8},
+}
+
+@article{raymer2000dimensionality,
+  author   = {Raymer, Michael L. and Punch, William F. and Goodman, Erik D. and Kuhn, Leslie A. and Jain, Anil K.},
+  title    = {Dimensionality reduction using genetic algorithms},
+  journal  = {{IEEE} Transactions on Evolutionary Computation},
+  year     = {2000},
+  volume   = {4},
+  number   = {2},
+  pages    = {164--171},
+  doi      = {10.1109/4235.850656},
+}
+
+@article{tran2019variable,
+  author   = {Tran, Binh and Xue, Bing and Zhang, Mengjie},
+  title    = {Variable-length particle swarm optimization for feature selection on high-dimensional classification},
+  journal  = {{IEEE} Transactions on Evolutionary Computation},
+  year     = {2019},
+  volume   = {23},
+  number   = {3},
+  pages    = {473--487},
+  doi      = {10.1109/TEVC.2018.2869405},
+}
+
+@article{lukaszuk2024stability,
+  author   = {{\L}ukaszuk, Tomasz and Krawczuk, Jerzy and {\.Z}y{\l}a, Kamil and K{\k{e}}sik, Jacek},
+  title    = {Stability of feature selection in multi-omics data analysis},
+  journal  = {Applied Sciences},
+  year     = {2024},
+  volume   = {14},
+  number   = {23},
+  pages    = {11103},
+  doi      = {10.3390/app142311103},
+}
+
+@article{song2024ecfssurvey,
+  author   = {Song, Xian-Fang and Zhang, Yong and Gong, Dun-Wei and Liu, Huan and Zhang, Wan-Qiu},
+  title    = {Evolutionary computation for feature selection in classification: {A} comprehensive survey of solutions, applications and challenges},
+  journal  = {Swarm and Evolutionary Computation},
+  year     = {2024},
+  volume   = {90},
+  pages    = {101661},
+  doi      = {10.1016/j.swevo.2024.101661},
+}

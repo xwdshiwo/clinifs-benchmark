@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.DS_Store
+
+# Large processed matrices and regenerated outputs are intentionally excluded.
+data/main_benchmark/
+data/external_validation/
+data/external_validation_v2/
+data/canonical/
+output/
+!output/.gitkeep
+paper/
+SUBMISSION_PACKAGE_README.md
+docs_FINAL_ASSESSMENT.md
+
+# Local logs and checkpoints
+*.log
+*.pid
+checkpoint*/
+cache*/

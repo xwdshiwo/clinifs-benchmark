@@ -1,0 +1,17 @@
+dataset_id,cancer_type,file,samples,features,ratio,role,external_pair,platform,notes
+Lung_GSE19804,Lung,main_benchmark/Lung_GSE19804.csv,114,54675,56/58,main+discovery,E2,GPL570,
+Liver_GSE76427,Liver,main_benchmark/Liver_GSE76427.csv,165,47322,115/50,main+discovery,E3,GPL10558,
+Liver_GSE14520_U133A,Liver,main_benchmark/Liver_GSE14520_U133A.csv,357,22277,181/176,main,none,GPL96,largest dataset
+Colorectal_GSE44076,Colorectal,main_benchmark/Colorectal_GSE44076.csv,194,49386,97/97,main+discovery,E4,GPL13667,probe IDs mapped to gene symbols for E4
+Colorectal_GSE44861,Colorectal,main_benchmark/Colorectal_GSE44861.csv,105,22277,52/53,main,none,GPL96,
+Breast_GSE70947,Breast,main_benchmark/Breast_GSE70947.csv,289,35981,143/146,main,none,GPL10558,
+Renal_GSE53757,Renal,main_benchmark/Renal_GSE53757.csv,143,54675,71/72,main,none,GPL570,
+Prostate_GSE6919_U95Av2,Prostate,main_benchmark/Prostate_GSE6919_U95Av2.csv,124,12625,62/62,main,none,GPL8300,
+Bladder_GSE31189,Bladder,main_benchmark/Bladder_GSE31189.csv,85,54675,48/37,main,none,GPL570,
+Leukemia_GSE63270,Leukemia,main_benchmark/Leukemia_GSE63270.csv,101,54675,60/41,main,none,GPL570,
+Pancreatic_GSE16515,Pancreatic,main_benchmark/Pancreatic_GSE16515.csv,51,54675,36/15,main,none,GPL570,borderline balance
+Lung_GSE18842,Lung,external_validation/E2_Lung_validation_aligned.csv,90,54675,46/44,validation,E2,GPL570,aligned to GSE19804
+Liver_GSE57957,Liver,external_validation/E3_Liver_validation_aligned.csv,75,47322,39/36,validation,E3,GPL10558,aligned to GSE76427
+Colorectal_GSE25070,Colorectal,external_validation/E4_CRC_44076_to_25070_validation_aligned.csv,52,15046,26/26,validation,E4,GPL6883,gene-level aligned 15046 common genes
+A1_Colon,Colorectal,canonical/A1_Colon.csv,62,1911,31/31,canonical,none,GPL8300,MGRFE classic
+A2_Leukemia,Leukemia,canonical/A2_Leukemia.csv,72,7129,47/25,canonical,none,GPL80,MGRFE classic
