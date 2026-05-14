@@ -50,6 +50,13 @@ cp examples/example_cumida_small.csv data/main_benchmark/example_cumida_small.cs
 python run_all.py --methods anova --datasets example_cumida_small
 ```
 
+Docker smoke test:
+
+```bash
+docker build -t clinifs-benchmark .
+docker run --rm clinifs-benchmark
+```
+
 ## Full benchmark
 
 To reproduce the full benchmark, prepare the processed datasets according to `data/dataset_manifest.csv` under:

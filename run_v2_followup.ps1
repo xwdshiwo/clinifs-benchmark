@@ -1,7 +1,7 @@
 # V2 Followup 一键串行脚本
 # 在 E2 完成后启动，按序执行 A1 -> A2 -> E3 -> E4 -> E1 收尾
 # 用法：在独立 PowerShell 窗口执行：
-#   cd c:\Users\xwdsh\Documents\进化算法研究\2026-04-17_2300_paper_draft_v1
+#   cd path\to\clinifs-benchmark
 #   .\run_v2_followup.ps1
 # 可选参数：
 #   -SkipE2Check : 跳过 E2 完成度检查，立即开始
